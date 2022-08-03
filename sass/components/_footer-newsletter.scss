@@ -1,0 +1,86 @@
+// .newsletter {
+//     margin-left: auto;
+//   }
+
+  .newsletter {
+    display: grid;
+    justify-content: center;
+
+    @media (min-width:1200px) {
+      display: inline;
+     justify-content: start;
+    }
+  }
+  
+  .newsletter__subscribe {
+    color: var(--color-color4);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+  }
+
+  .newsletter__subscribe {
+    text-align: center;
+
+    @media (min-width: 1200px) {
+      text-align: start;
+    }
+  }
+
+  .form-foot__button-foot {
+    @media (min-width: 480px) {
+      margin: 0 auto;
+      margin-top: 20px;
+    }
+
+    @media (min-width: 1200px) {
+      display: flex;
+      align-items: center;
+      padding: 10px 32px;
+      border-radius: 4px;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.87;
+      border: 0;
+      letter-spacing: 0.06em;
+      margin-left: 12px;
+      background-color: var(--color-hover);
+      color: var(--color-color4);
+    }
+  }
+  
+  .form-foot__subscribe-email-foot {
+    margin-top: 20px;
+    padding-left: 16px;
+    padding-top: 15px;
+    height: 50px;
+    padding-bottom: 15px;
+    // max-width: 358px;
+    border-radius: 4px;
+    background-color: var(--input-foot);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: var(--color-color4);
+  }
+
+  .form-foot__subscribe-email-foot {
+    width: 450px;
+
+    @media (min-width: 1200px) {
+      display: flex;
+      max-width: 358px;
+    }
+  }
+
+
+  .form-foot {
+    @media (min-width: 1200px) {
+      display: flex;
+      align-items: baseline;
+      
+    }
+  }
+  
+  .icon-foot {
+    margin-left: 10px;
+  }

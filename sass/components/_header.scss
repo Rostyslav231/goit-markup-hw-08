@@ -1,0 +1,142 @@
+.section-l__header-l {
+    text-transform: uppercase;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    height: 120px;
+    text-align: center;
+    margin: 0 auto;
+    color: var(--color-color4);
+  }
+
+  .section-l__header-l {
+    max-width: 360px;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.6;
+    letter-spacing: 0.06em;
+    height: 84px;
+
+    @media (min-width: 768px) {
+      max-width: 696px;
+      text-transform: uppercase;
+      font-size: 44px;
+      font-weight: 900;
+      line-height: 1.36;
+      letter-spacing: 0.06em;
+      height: 120px;
+      text-align: center;
+      margin: 0 auto;
+      color: var(--color-color4);
+    }
+  }
+
+  .header-menu-list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+    
+  }
+
+
+
+  .header-menu-list__header-list {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.17;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+
+  .header-menu-list__header-list {
+    text-align: center;
+
+    @media (min-width: 768px) {
+      text-align: left;
+      
+    }
+  }
+  
+  .header-menu-list__text-list {
+    display: flex;
+    height: 75px;
+    color: var(--color-color2);
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  .header-menu-list__text-list {
+    max-width: 450px;
+
+    @media (min-width: 768px) {
+      max-width: 354px;
+      
+    }
+
+    @media (min-width: 1200px) {
+      max-width: 270px;
+      
+    }
+  }
+  
+  .header-menu-list__decor-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    max-width: 270px;
+    height: 120px;
+    background-color: var(--decor-photo-background)
+  }
+
+  .header-menu-list__decor-photo {
+    max-width: 450px;
+
+   @media (min-width: 768px) {
+    max-width: 354px;
+    
+   }
+  }
+
+  .section-lll__header-photo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+  }
+
+  .contacts-footer__header-lpl {
+    color: var(--color-color4);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+  }
+
+  .form__form-header {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    margin-bottom: 12px;
+  
+  }
+
+  .section-main__header-ll {
+    position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; border: 0; clip: rect(0 0 0 0);
+  }
+
+  .photo-list-p__header-list-ll {
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    font-size: 18px;
+    line-height: 2;
+    margin-bottom: 4px;
+    color: var(--color-color3);   
+  }

@@ -1,0 +1,114 @@
+.footer-general {
+    align-items: baseline;
+
+    @media (min-width: 1200px) {
+      display: flex;
+      justify-content: space-between;
+      
+    }
+  }
+
+  .dekstop-foot {
+
+    @media (min-width: 768px) {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-around;
+    }
+
+    @media (min-width: 1200px) {
+    display: flex;
+    align-items: baseline;
+
+    }
+
+  }
+
+
+  .footer-l {
+    display: grid;
+    justify-content: center;
+    padding-bottom: 60px;
+
+    @media (min-width: 1200px) {
+      display: inline;
+      justify-content: start;
+      padding-bottom: 0;
+      
+    }
+  }
+
+  .logo-foot {
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.17;
+    color: var(--color-hover);
+    padding-bottom: 25px;
+  }
+
+  .logo-foot {
+    padding-bottom: 0;
+    text-align: center;
+
+    @media (min-width: 1200px) {
+      text-align: start;
+      padding-top: 25px;
+    }
+  }
+
+
+  .big-footer {
+    background-color: var(--background-color-color3);
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .contacts-list {
+    list-style-type: none;
+    margin-top: 20px;
+    max-width: 231px;
+    height: 81px;
+  }
+
+  .contacts-list {
+    text-align: center;
+
+    @media (min-width: 1200px) {
+      text-align: start;
+    }
+  }
+  
+  .contacts-list__list-cont-l, .contacts-list__list-cont-ll {
+    margin-bottom: 9px;
+  }
+  
+  
+  .contacts-list__city {
+    text-decoration: none;
+    color: var(--color-color4);
+    line-height: 1.7;
+    font-style: normal;
+  }
+  
+  .contacts-list__city:hover {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: var(--color-hover);
+  }
+  
+  .contacts-list__email-tel {
+    text-decoration: none;
+    line-height: 1.7;
+    color: var(--color-color5);
+    font-style: normal;
+  }
+  
+  .contacts-list__email-tel:hover {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: var(--color-hover);
+  }
+  
+  .logo-lll {
+    color: var(--color-color4);
+  }
